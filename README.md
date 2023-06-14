@@ -19,7 +19,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 ![127 0 0 1_3000_index html(iPad Air) (1)](https://github.com/Bibiwei-Pere/Age-Calculator-app/assets/106984663/98ddb5a9-a744-41ab-bbaf-bae88aae37a4)
 
 #### Mobile 375px
-<img src="https://github.com/Bibiwei-Pere/Age-Calculator-app/assets/106984663/62d45bee-f4d3-415c-85d7-c9d25674f9c7" width="350" height="500">
+<img src="https://github.com/Bibiwei-Pere/Age-Calculator-app/assets/106984663/62d45bee-f4d3-415c-85d7-c9d25674f9c7" width="350" height="600">
 
 
 ### Links
