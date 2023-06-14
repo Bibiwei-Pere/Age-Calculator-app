@@ -18,6 +18,15 @@
     box-sizing: border-box;
 }
 
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
     /* Main */
 body {
     display: flex;
@@ -26,6 +35,12 @@ body {
     height: 100vh;
     background: var(--Off-white);
     font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 13px;
+    position: absolute;
+    top: 155px;
 }
 
 .container {
@@ -45,7 +60,7 @@ body {
     width: 145px;
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 0;
+    padding: 0 40px 65px 0;
 }
 
 .m-r {
@@ -129,10 +144,16 @@ button:hover, button:focus, button:active {
         border-radius: 30px 30px 90px 30px;
     }
 
+    p {
+        font-size: 13px;
+        top: 195px;
+        width: 70px;
+    }
+
     /* Input */
     .input-wrapper {
         width: 100%;
-        padding-bottom: 27px;
+        padding-bottom: 47px;
     }
 
     .input-wrapper div {
@@ -145,11 +166,12 @@ button:hover, button:focus, button:active {
     }
     .input-wrapper input {
         width: 96px;
+        font-size: 25px;
     }
 
     button {
         right: 190px;
-        top: 110px;
+        top: 130px;
         height: 55px;
     }
 
