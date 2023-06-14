@@ -39,8 +39,9 @@ body {
 
 p {
     font-size: 13px;
-    position: absolute;
-    top: 155px;
+    position: relative;
+    width: 150px;
+    top: 5px;
 }
 
 .container {
@@ -53,7 +54,6 @@ p {
     /* Input */
 .input-wrapper {
     display: flex;
-    border-bottom: 1px solid var(--Light-grey);
 }
 
 .input-wrapper div {
@@ -95,12 +95,17 @@ p {
     font-size: 20px;
 }
 
+.line {
+    height: 2px;
+    border-top: 1px solid var(--Light-grey);
+}
+
 button {
     width: 80px;
     height: 80px;
     position: relative;
-    right: 5px;
-    top: 75px;
+    left: 415px;
+    bottom: 40px;
     background: var(--Purple);
     border: none;
     border-radius: 50%;
@@ -113,7 +118,7 @@ button:hover, button:focus, button:active {
 
     /* Text */
 .text-wrapper {
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 
@@ -126,7 +131,7 @@ button:hover, button:focus, button:active {
     font-size: 72px;
     font-weight: 800;
     color: var(--Purple);
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-style: italic;
 }
 .text-wrapper h1 {
@@ -146,14 +151,13 @@ button:hover, button:focus, button:active {
 
     p {
         font-size: 13px;
-        top: 195px;
         width: 70px;
     }
 
     /* Input */
     .input-wrapper {
         width: 100%;
-        padding-bottom: 47px;
+        padding-bottom: 17px;
     }
 
     .input-wrapper div {
@@ -170,9 +174,10 @@ button:hover, button:focus, button:active {
     }
 
     button {
-        right: 190px;
-        top: 130px;
+        left: 130px;
+        bottom: 30px;
         height: 55px;
+        width: 55px;
     }
 
     button img {
