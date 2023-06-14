@@ -1,0 +1,169 @@
+:root {
+    /* Primary */
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Main */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--Off-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: var(--White);
+    max-width: 650px;
+    padding: 50px;
+    border-radius: 10px 10px 90px 10px;
+}
+
+    /* Input */
+.input-wrapper {
+    display: flex;
+    border-bottom: 1px solid var(--Light-grey);
+}
+
+.input-wrapper div {
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+}
+
+.m-r {
+    margin-right: 50px;
+}
+
+.input-wrapper label {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.input-wrapper input {
+    width: 120px;
+    height: 55px;
+    padding: 0 0 2px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--Light-grey);
+    font-size: 32px;
+    outline: none;
+}
+
+.input-wrapper input:hover, .input-wrapper input:focus, .input-wrapper input:active {
+    border: 1px solid var(--Purple);
+}
+.input-wrapper input::placeholder {
+    color: var(--Smokey-grey);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 5px;
+    top: 75px;
+    background: var(--Purple);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+button:hover, button:focus, button:active {
+    background: var(--Off-black);
+}
+
+    /* Text */
+.text-wrapper {
+    margin-top: 35px;
+}
+
+
+.text-wrapper div {
+    display: flex;
+    gap: 5px;
+}
+
+.display {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--Purple);
+    letter-spacing: 15px;
+    font-style: italic;
+}
+.text-wrapper h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 72px;
+}
+
+@media (max-width: 700px) {
+
+    /* Main */
+    .container {
+        padding: 40px 20px 40px 20px;
+        max-width: 350px;
+        border-radius: 30px 30px 90px 30px;
+    }
+
+    /* Input */
+    .input-wrapper {
+        width: 100%;
+        padding-bottom: 27px;
+    }
+
+    .input-wrapper div {
+        padding: 0 10px 35px 0;
+        width: 100%;
+    }
+
+    .m-r {
+        margin-right: 0;
+    }
+    .input-wrapper input {
+        width: 96px;
+    }
+
+    button {
+        right: 190px;
+        top: 110px;
+        height: 55px;
+    }
+
+    button img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Input */
+    .text-wrapper h1 {
+        font-size: 50px;
+    }
+
+    .display {
+        font-size: 50px;
+    }
+}
