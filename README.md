@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-#### Desktop 1440px
+
 ![127 0 0 1_3000_index html(iPad Air) (1)](https://github.com/Bibiwei-Pere/Age-Calculator-app/assets/106984663/98ddb5a9-a744-41ab-bbaf-bae88aae37a4)
 
 
